@@ -1,0 +1,54 @@
+body {
+    background-color: #f4f4f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.dropdown {
+    position: relative;
+}
+.sandwich-btn {
+    background: linear-gradient(180deg, #e29553 0%, #d47a32 50%, #c1621d 100%);
+    color: white;
+    padding: 16px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    min-width: 260px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    z-index: 10;
+    border: 1px solid #eee;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu a {
+    color: #333;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.dropdown-menu a:hover {
+    background-color: #dddcdc;
+}
