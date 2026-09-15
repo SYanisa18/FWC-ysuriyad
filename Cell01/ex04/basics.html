@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics</title>
+    <style>
+        body {
+            background-color: pink; /* Pink background */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            font-size: 2.5rem;
+        }
+        .shop-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 30px 0;
+        }
+        .shop-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .shop-item img {
+            width: 300px;
+            height: 225px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .shop-item a {
+            margin-top: 10px;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .shop-item a:hover {
+            text-decoration: underline;
+        }
+        hr {
+            border: none;
+            border-top: 2px solid white;
+            width: 100%;
+            margin: 30px 0;
+        }
+        .footer {
+            text-align: right;
+            font-style: italic;
+            font-family: monospace;
+            font-size: 1rem;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Online shop!!</h1>
+    <div class="shop-container">
+        <div class="shop-item">
+            <img src="Amazon.jfif" alt="Amazon Shop">
+            <a href="https://www.amazon.com" target="_blank">Amazon</a>
+        </div>
+        <div class="shop-item">
+            <img src="Shopee.jfif" alt="Shopee Shop">
+            <a href="https://www.shopee.co.th" target="_blank">Shopee</a>
+        </div>
+    </div>
+    <hr>
+    <div class="footer">
+        © wil 2026
+    </div>
+</body>
+</html>
