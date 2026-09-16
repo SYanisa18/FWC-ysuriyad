@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 50px 20px;
+}
+.profile-card {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.invisible-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+.invisible-table td {
+    border: none;
+    padding: 0;
+}
+.image-cell {
+    width: 100%;
+}
+.full-width-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.profile-login {
+    font-size: 1.4rem;
+    color: #000000;
+    margin: 15px 0 15px 0;
+    font-weight: bold;
+}
+.profile-bio {
+    font-size: 0.8rem;
+    color: #555555;
+    margin-bottom: 15px;
+}
+.sub-bio {
+    margin-bottom: 15px;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    cursor: default;
+}
+.button-cell {
+    width: 100%;
+}
+.contact-btn {
+    width: 100%;
+    background-color: #00d86c;
+    color: white;
+    border: none;
+    padding: 12px 0;
+    font-size: 1rem;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+}
+.contact-btn:hover {
+    background-color: #00b62a;
+}
