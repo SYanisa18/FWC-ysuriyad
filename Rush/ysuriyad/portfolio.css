@@ -143,10 +143,6 @@ body {
     color: #ffffff;
 }
 
-.navbar-toggler {
-    display: none;
-}
-
 /* Home Section */
 .home-section {
     position: relative;
