@@ -102,10 +102,6 @@ body {
 }
 
 /* NAVIGATION BAR */
-.my-code-icon {
-    margin-right: 8px;
-}
-
 .navbar {
     position: fixed;
     top: 0;
