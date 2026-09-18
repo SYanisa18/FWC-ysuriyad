@@ -250,7 +250,7 @@ body {
 .edu-logo {
     width: 100px;
     height: 100px;
-    object-fit: contain; /* ป้องกันรูปบีบเบี้ยว */
+    object-fit: contain;
     margin-bottom: 16px;
 }
 
